@@ -10,7 +10,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-
+    background-image:url(ble.webp);
+    background-size: cover;
 }
 
 .todo-container {
@@ -18,8 +19,8 @@ body {
     width: 550px;
     padding: 10px;
     border-radius: 10px;
-    background-color: rgb(246, 232, 211);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6) ;
+    background-color: rgb(172, 141, 95);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8) ;
 }
 
 h1 {
@@ -37,7 +38,7 @@ input {
 
 button {
     padding: 10px;
-    background-color: rgb(192, 125, 26);
+    background-color: rgb(233, 200, 150);
     border: none;
     border-radius: 5px;
     color: #050505;
