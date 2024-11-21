@@ -29,14 +29,14 @@ h1 {
 }
 
 input {
-    width: 80%;
+    width: 77%;
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
 
-button {
+.add-button, .delete-button {
     padding: 10px;
     background-color: rgb(233, 200, 150);
     border: none;
@@ -45,3 +45,25 @@ button {
     font-weight:700;
     cursor: pointer;
 }
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 11px;
+    border-bottom: 1px solid #ddd;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+
+
+
