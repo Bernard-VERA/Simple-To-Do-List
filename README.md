@@ -12,8 +12,8 @@
 
 ## Mission  
 
-Projet personnel (Novembre 2024) :
-Création d'une "To Do List" simple réalisée en HTML et Javascript, avec un peu de CSS pour le design. 
+Projet personnel (Novembre 2024) :  
+Création d'une "To Do List" simple réalisée en HTML et Javascript, avec un peu de CSS pour le design.  
 Il semble que ce soit un projet incontournable dans le portfolio d'un Développeur Web.
   
 
