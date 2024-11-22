@@ -61,8 +61,7 @@ input {
 ul {
     list-style: none;
     padding: 10px;
-    box-sizing: border-box;
-    
+    box-sizing: border-box; 
 }
 
 li {
@@ -86,7 +85,6 @@ li:last-child {
     white-space: nowrap;
     text-overflow: ellipsis; /* Ajoute des ellipses si le texte déborde */
     padding-right: 10px;
-
 }
 
 

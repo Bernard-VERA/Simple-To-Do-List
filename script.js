@@ -21,7 +21,7 @@ function addTask() {
                 todoList.removeChild(li)
             };
 
-            //Association du bouton "Supprimer" avec la liste à supprimer 
+            //Association de la span et du bouton "Supprimer" avec la liste à supprimer 
             li.appendChild(textSpan);
             li.appendChild(deleteButton);
         //Affichage de la liste créée
