@@ -8,7 +8,10 @@ function addTask() {
         // Création d'une liste qui reprend le texte récupéré précédemment
         const todoList = document.getElementById("todo-list");
         const li = document.createElement("li");
-        li.textContent = todoText;
+        const textSpan = document.createElement("span");
+        // Création d'une span pour pouvoir limiter la longueur du texte
+        textSpan.textContent = todoText;
+        textSpan.classList.add("todo-item");
 
             // Création d'un bouton " Supprimer". Au clic, on supprime la tâche.
             const deleteButton = document.createElement("button");
@@ -19,8 +22,8 @@ function addTask() {
             };
 
             //Association du bouton "Supprimer" avec la liste à supprimer 
+            li.appendChild(textSpan);
             li.appendChild(deleteButton);
-
         //Affichage de la liste créée
         todoList.appendChild(li);
 
