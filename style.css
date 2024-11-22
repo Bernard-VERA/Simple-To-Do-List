@@ -15,12 +15,24 @@ body {
 }
 
 .todo-container {
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    width: 550px;
+    width: 40%;
+    min-width: 400px;
     padding: 10px;
     border-radius: 10px;
     background-color: rgb(172, 141, 95);
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.8) ;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
 h1 {
@@ -29,9 +41,9 @@ h1 {
 }
 
 input {
-    width: 77%;
-    margin-bottom: 10px;
+    width: 70%;
     padding: 10px;
+    box-sizing: border-box;
     border: 1px solid #ddd;
     border-radius: 5px;
 }
@@ -48,7 +60,7 @@ input {
 
 ul {
     list-style: none;
-    padding: 0;
+    padding: 10px;
 }
 
 li {
@@ -63,6 +75,7 @@ li {
 li:last-child {
     border-bottom: none;
 }
+
 
 
 
