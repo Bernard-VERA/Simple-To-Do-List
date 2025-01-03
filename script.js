@@ -12,7 +12,7 @@ function addTask() {
         const li = document.createElement("li");
         const textSpan = document.createElement("span");
         // Création d'une span pour pouvoir limiter la longueur du texte
-        textSpan.textContent = todoText;
+        textSpan.textContent = DOMPurify.sanitize(todoText);
         textSpan.classList.add("todo-item");
 
             // Création d'un bouton " Supprimer". Au clic, on supprime la tâche.
@@ -65,7 +65,7 @@ function loadTasks() {
         const todoList = document.getElementById("todo-list"); 
         const li = document.createElement("li"); 
         const textSpan = document.createElement("span"); 
-        textSpan.textContent = todo.text; 
+        textSpan.textContent = DOMPurify.sanitize(todo.text); 
         textSpan.classList.add("todo-item"); 
          
         if (todo.completed) { 
