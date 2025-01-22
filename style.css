@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -89,6 +90,25 @@ li:last-child {
     white-space: nowrap;
     text-overflow: ellipsis; /* Ajoute des ellipses si le texte déborde */
     padding-right: 10px;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    padding: 15px;
+    font-weight: 800;
+}
+
+@media (max-height: 590px) {
+
+    .todo-container {
+        margin-top: 20px;
+    } 
+
+    footer {
+        position: static; /* Change la position du footer pour les petits écrans */
+    }
 }
 
 
