@@ -96,7 +96,7 @@ footer {
     display: flex;
     position: absolute;
     bottom: 0;
-    padding: 15px;
+    padding: 12px;
     font-weight: 800;
 }
 
@@ -104,11 +104,12 @@ footer {
 
     .todo-container {
         margin-top: 20px;
+        margin-bottom: 20px;
     } 
 
     footer {
         position: fixed; /* Change la position du footer pour les petits écrans */
-        bottom: 0vh;
+        bottom: 0%;
     }
 }
 
