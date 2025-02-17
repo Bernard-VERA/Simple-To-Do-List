@@ -108,6 +108,7 @@ footer {
 
     footer {
         position: static; /* Change la position du footer pour les petits écrans */
+        bottom: 10px;
     }
 }
 
