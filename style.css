@@ -100,15 +100,15 @@ footer {
     font-weight: 800;
 }
 
-@media only screen and(max-width: 590px) {
+@media (max-width: 590px) {
 
     .todo-container {
         margin-top: 20px;
     } 
 
     footer {
-        position: static; /* Change la position du footer pour les petits écrans */
-        bottom: 10px;
+        position: fixed; /* Change la position du footer pour les petits écrans */
+        bottom: 0vh;
     }
 }
 
