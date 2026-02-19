@@ -12,10 +12,10 @@
 
 ## Mission  
 
-Projet personnel (Novembre 2024) En cours de réalisation :
+Projet personnel (Novembre 2024) :
 Création d'une "To Do List" simple réalisée en HTML et Javascript, avec un peu de CSS pour le design.  
 Il semble que ce soit un projet incontournable dans le portfolio d'un Développeur Web.  
-Vous pouvez suivre la progression du projet sur GitHub et sur le site en ligne.
+Vous pouvez voir le résultat sur le site en ligne.
   
 
 ## Compétences 
