@@ -26,7 +26,10 @@ Créer une To-do List permet de réviser les bases du Javascript :
 * Modification de l'interface utilisateur avec "appendChild", "removeChild", "innerText"
 * Apprendre à ajouter des écouteurs d'événements avec "addEventListener" pour capturer les interactions utilisateur comme les clics et les entrées clavier.
 * Apprendre à utiliser le stockage local du navigateur (localStorage) pour sauvegarder les tâches de manière persistante.
-* Gérer les données sous forme de tableaux et d'objets pour stocker les informations des tâches.
+* Gérer les données sous forme de tableaux et d'objets pour stocker les informations des tâches.  
+<br/>
+Vous pouvez voir le projet en cliquant ici : <a href="https://bernard-vera.github.io/Simple-To-Do-List/" target="_blank">To-Do List</a>  
+
 
 --------
 
